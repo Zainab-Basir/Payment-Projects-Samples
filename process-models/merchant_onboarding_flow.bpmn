@@ -1,1 +1,8 @@
-<bpmn>Merchant Onboarding Flow</bpmn>
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" id="merchantOnboardingFlow" targetNamespace="http://example.com/bpmn">
+  <bpmn:process id="MerchantOnboarding" isExecutable="true">
+    <bpmn:startEvent id="StartEvent" name="Merchant Application"/>
+    <bpmn:task id="VerifyBusinessDocs" name="Verify Business Docs"/>
+    <bpmn:endEvent id="EndEvent" name="Merchant Approved"/>
+  </bpmn:process>
+</bpmn:definitions>
