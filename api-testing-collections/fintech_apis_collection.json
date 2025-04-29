@@ -1,0 +1,44 @@
+{
+  "info": {
+    "name": "Fintech APIs",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Payment",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "http://localhost:8080/api/payments/pay"
+        }
+      }
+    },
+    {
+      "name": "Get Transactions",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/api/payments/transactions"
+        }
+      }
+    },
+    {
+      "name": "Check Balance",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8081/api/banking/balance/123456"
+        }
+      }
+    },
+    {
+      "name": "Transfer Funds",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "http://localhost:8081/api/banking/transfer?from=123456&to=654321&amount=100"
+        }
+      }
+    }
+  ]
+}

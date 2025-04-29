@@ -1,0 +1,3 @@
+# Payment Project Samples
+
+This repository contains Java Spring Boot + Oracle DB based fintech projects...
