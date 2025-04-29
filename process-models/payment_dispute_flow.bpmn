@@ -1,1 +1,8 @@
-<bpmn>Payment Dispute Flow</bpmn>
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" id="paymentDisputeFlow" targetNamespace="http://example.com/bpmn">
+  <bpmn:process id="PaymentDisputeProcess" isExecutable="true">
+    <bpmn:startEvent id="StartEvent" name="Dispute Initiated"/>
+    <bpmn:task id="VerifyDocs" name="Verify Documents"/>
+    <bpmn:endEvent id="EndEvent" name="Resolved"/>
+  </bpmn:process>
+</bpmn:definitions>
